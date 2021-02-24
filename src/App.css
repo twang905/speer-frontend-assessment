@@ -1,38 +1,172 @@
-.App {
-  text-align: center;
+body {
+  margin: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  text-transform: uppercase;
+  margin: 0px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+  font-weight: 200;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+hr {
+  width: 80px;
+  height: 2px;
+  background-color: white;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+p {
+  margin: 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App {
+  text-align: left;
+  color: white;
+  font-family: "HelveticaNeue-Bold";
+}
+
+.btn {
+  background-color: #D34849;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 40px;
+  padding: 16px 80px;
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+
+.copyright {
+  font-size: 18px;
+  font-family: "HelveticaNeue";
+  letter-spacing: 1px;
+}
+
+.email {
+  font-size: 24px;
+  font-family: "HelveticaNeue";
+  display: inline-block;
+}
+
+.email-icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.logo {
+  font-size: 36px;
+  font-family: "HelveticaNeue";
+  padding: 30px;
+  letter-spacing: 3px;
+}
+
+.navbar-brand {
+  color: white;
+  font-size: 36px;
+  font-family: "HelveticaNeue";
+  padding: 30px;
+}
+
+.navbar-toggler {
+  color: white;
+}
+
+.perk-card {
+  padding-right: 7%;
+}
+.perk-description {
+  color: black;
+  font-size: 24px;
+  font-family: "HelveticaNeue";
+}
+
+.perks-navbar {
+  background-color: #D34849;
+  color: white;
+  padding: 2% 3%;
+}
+
+.perk-title {
+  text-transform: capitalize;
+  font-size: 36px;
+  letter-spacing: 4px;
+  word-spacing: 300px; 
+}
+
+.plan-card {
+  padding: 40px 16px;
+}
+
+.plan-details {
+  padding: 15px 0px;
+  font-size: 36px;
+  font-family: "HelveticaNeue";
+}
+
+.plan-name {
+  text-transform: uppercase;
+  font-size: 32px;
+}
+
+.plan-price {
+  font-size: 100px;
+}
+
+.plan-term {
+  text-transform: uppercase;
+  font-size: 36px;
+}
+
+.pricing-subtitle {
+  font-family: "HelveticaNeue";
+  font-size: 40px;
+  letter-spacing: 4px;
+  line-height: 70px;
+}
+
+
+
+.section-title {
+  font-size: 56px;
+  letter-spacing: 5px;
+  padding: 20px 0px;
+}
+
+.top-navbar {
+  background-color: #191919;
+  color: white;
+  padding: 2% 3%;
+}
+
+#contact-section {
+  background-color: #5E33D1;
+  padding: 5% 10%;
+}
+
+#footer {
+  background-color: #5E33D1;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+#pricing-section {
+  background-color: #191919;
+  padding: 5% 10%;
+}
+
+#perks-section {
+  background-color: #D34849;
+  padding: 5% 10%;
+}
+
+@font-face{
+  font-family: "HelveticaNeue-Bold";
+  src: url('fonts/HelveticaNeue-Bold.ttf'),
+}
+
+@font-face{
+  font-family: "HelveticaNeue-Regular";
+  src: url('fonts/HelveticaNeue.ttf'),
 }
