@@ -1,6 +1,6 @@
 import React from "react";
 import PlanCard from "./PlanCard";
-import plans from "../plans";
+import plans from "../../plans";
 
 function PricingSection() {
     return(
