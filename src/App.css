@@ -22,30 +22,30 @@ p {
   margin: 0px;
 }
 
+select {
+  margin-top: 1vw;
+  width: 100%;
+  height: 3.8vw;
+}
+
+form {
+  margin: 3vw 0;
+}
+
+
+
 .App {
   text-align: left;
   color: white;
   font-family: "HelveticaNeue-Bold";
 }
 
-.black-filter {
-  background-color: #191919;
-  opacity: 50%;
-  height: 100vh;
-  width: 100vw;
-  grid-column: 1;
-  grid-row: 1;
-  z-index: 0;
-}
 
 .btn {
   background-color: #D34849;
   text-transform: uppercase;
   color: white;
   border-radius: 40px;
-  padding: 16px 80px;
-  font-size: 16px;
-  letter-spacing: 3px;
 }
 
 .carousel {
@@ -76,17 +76,18 @@ p {
 }
 
 .copyright {
-  font-size: 18px;
+  font-size: 1.3vw;
   font-family: "HelveticaNeue";
-  letter-spacing: 1px;
+  letter-spacing: .13vw;
 }
 
 .demo-button {
   background-color: white;
   border-radius: 40px;
-  padding: 16px 80px;
-  font-size: 16px;
-  letter-spacing: 3px;
+  font-size: 1.2vw;
+  letter-spacing: .12vw;
+  width: 17vw;
+  height: 4.2vw;
   border: none;
 }
 
@@ -95,15 +96,19 @@ p {
 }
 
 .download-subtitle {
-  letter-spacing: 5px;
+  letter-spacing: .26vw;
   color: white;
+  font-size: 2.6vw;
   font-family: "HelveticaNeue";
 }
 
 .email {
-  font-size: 24px;
+  font-size: 1.8vw;
+  letter-spacing: .18vw;
   font-family: "HelveticaNeue";
   display: inline-block;
+  margin-top: 9.4vw ;
+  text-align: left;
 }
 
 .email-icon {
@@ -132,14 +137,22 @@ p {
 
 .hamburger-line {
   width: 35px;
-  height: 5px;
+  height: 3px;
   background-color: white;
-  margin: 6px 0;
+  margin: 7px 0;
 }
 
 .hamburger-menu {
   display: inline-block;
-  padding: 20px;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+
+.hero-button {
+  width: 15vw;
+  height: 4.1vw;
+  font-size: 1.1vw;
 }
 
 .hero-contents {
@@ -152,48 +165,78 @@ p {
 .hero-subtitle {
   font-family: "HelveticaNeue";
   text-align: center;
-  letter-spacing: 3.2px;
+  font-size: 1.6vw;
+  letter-spacing: .16vw;
   padding: 2% 20% 4% 20%;
-  font-size: 24px;
+  font-size: 1.7vw;
 }
 
 .hero-title {
   text-align: center;
+  font-size: 3.3vw;
+  letter-spacing: 0.33vw;
 }
 
 .landing-title {
-  letter-spacing: 6.5px;
-  font-size: 56px;
+  letter-spacing: .39vw;
+  font-size: 3.9vw;
 }
 
 .landing-subtitle {
-  letter-spacing: 5px;
+  letter-spacing: .27vw;
   color: black;
   padding: 20px 0px;
+  font-size: 2.7vw;
+}
+
+.line {
+  width: 5vw;
+  height: 2px;
+  margin: 1vw 0;
 }
 
 .logo {
-  font-size: 36px;
+  font-size: 2.5vw;
   font-family: "HelveticaNeue";
-  padding: 30px;
-  letter-spacing: 3px;
+  letter-spacing: .25vw;
+  margin: 5vw 0 2vw;
 }
 
 .navigation-bar {
   background-color: transparent;
-  padding: 1% 3%;
+  height: 200px;
   z-index: 1;
 }
 
 .navbar-brand {
   color: white;
-  font-size: 36px;
+  font-size: 38px;
+  letter-spacing: 3.6px;
   font-family: "HelveticaNeue";
   z-index: 1;
+  padding: 0;
+  position: absolute;
+  left: 120px;
+  top: 40px;
 }
 
 .navbar-toggler {
   color: white;
+}
+
+.payment-page-button {
+  width: 11vw;
+  height: 3.1vw;
+  text-transform: uppercase;
+  font-size: 1vw;
+  letter-spacing: .1vw;
+}
+
+.payment-step {
+  font-family: "HelveticaNeue";
+  font-size: 2.3vw;
+  letter-spacing: 0.23vw;
+  margin: 1vw 0;
 }
 
 .perk-card {
@@ -202,7 +245,8 @@ p {
 
 .perk-description {
   color: black;
-  font-size: 24px;
+  font-size: 1.8vw;
+  letter-spacing: .18vw;
   font-family: "HelveticaNeue";
 }
 
@@ -212,11 +256,22 @@ p {
   padding: 2% 3%;
 }
 
+.perks-row {
+  margin-top: 3vw;
+}
+
 .perk-title {
   text-transform: capitalize;
-  font-size: 36px;
-  letter-spacing: 4px;
+  font-size: 2.6vw;
+  letter-spacing: .26vw;
   word-spacing: 300px; 
+}
+
+.plan-button {
+  width: 17vw;
+  height: 4.3vw;
+  font-size: 1.2vw;
+  letter-spacing: .12vw;
 }
 
 .plan-card {
@@ -225,65 +280,101 @@ p {
 
 .plan-details {
   padding: 15px 0px;
-  font-size: 36px;
+  font-size: 2.4vw;
+  letter-spacing: .24vw;
   font-family: "HelveticaNeue";
 }
 
 .plan-name {
   text-transform: uppercase;
-  font-size: 32px;
+  font-size: 2.2vw;
+  letter-spacing: .22vw;
 }
 
 .plan-price {
-  font-size: 100px;
+  font-size: 7vw;
+  letter-spacing: .7vw;
+}
+
+.plan-select {
+  text-transform: uppercase;
+  font-size: 1.9vw;
+  letter-spacing: .19vw;
+  display: inline;
+  margin-left: 1vw;
 }
 
 .plan-term {
   text-transform: uppercase;
-  font-size: 36px;
+  font-size: 2.4vw;
+  letter-spacing: .24vw;
+}
+
+.pricing-row {
+  margin: 10vw 0 0;
 }
 
 .pricing-subtitle {
   font-family: "HelveticaNeue";
-  font-size: 40px;
-  letter-spacing: 4px;
+  font-size: 2.6vw;
+  letter-spacing: .26vw;
   line-height: 70px;
+}
+
+.radio {
+  height: 1.5vw;
+  width: 1.5vw;
 }
 
 .review-name {
   text-transform: uppercase;
-  letter-spacing: 3.5px;
+  letter-spacing: .18vw;
+  font-size: 1.8vw;
+}
+
+.review-row {
+  margin-top: 2vw;
 }
 
 .review-text {
   color: black;
   font-family: "HelveticaNeue";
-  letter-spacing: 3.5px;
+  letter-spacing: .18vw;
+  font-size: 1.8vw;
+}
+
+.reviews-content {
+  padding: 5%;
 }
 
 .section-title {
-  font-size: 56px;
-  letter-spacing: 5px;
+  font-size: 3.8vw;
+  letter-spacing: 0.38vw;
   padding: 20px 0px;
 }
 
+.select-plan {
+  margin: 5% 0%;
+}
+
 .speaker-superior-one {
-  width: 50%;
+  width: 15vw;
   margin-bottom: 120px;
 }
 
 .speaker-superior-two {
-  width: 50%;
+  width: 15vw;
   margin-top: 120px;
 }
 
 .speaker-pair {
-  width: 100%;
+  width: 30vw;
 }
 
 .star-icon {
   color: black;
-  font-size: 30px;
+  font-size: 1.5vw;
+  letter-spacing: .15vw;
   margin: 20px 5px 20px 0px;
 }
 
@@ -298,7 +389,58 @@ p {
   margin-top: 10%;
 }
 
+.terms-of-service {
+  margin: 5vw 0 2vw;
+  font: normal normal normal 1.1vw Helvetica;
+  letter-spacing: 0.11vw;
+}
 
+.textfield {
+  width: 100%;
+  height: 3.8vw;
+  margin-top: 1vw;
+}
+
+.textfield-label {
+  display: block;
+  letter-spacing: .11vw;
+  text-transform: uppercase;
+  font: normal normal bold 1.1vw Helvetica;
+  margin-top: 1vw;
+}
+
+.try-it-button {
+  height: 5.2vw;
+  width: 18vw;
+  font-size: 1.5vw;
+  letter-spacing: .15vw;
+}
+
+.parent {
+  margin-top: 90px;
+  scroll-snap-type: y mandatory;
+  flex-basis: 50%;
+  max-height: 50vh;
+  scroll-snap-stop: always;
+  overflow-y: scroll;
+}
+
+li{
+border-bottom: 1px solid white;
+padding: 3rem;
+font-size: 1.4rem;
+color: rgba(white, .5);
+background: lightgray;
+text-align: center;
+scroll-snap-align: start;
+display: flex;
+flex-flow: column;
+justify-content: center;
+}
+
+.stop {
+scroll-snap-stop: always;
+}
 #contact-section {
   background-color: #5E33D1;
   padding: 5% 10%;
@@ -314,7 +456,7 @@ p {
 #footer {
   background-color: #5E33D1;
   text-align: center;
-  padding-bottom: 5%;
+  height: 28vw;
 }
 
 #front-row-seats {
@@ -333,6 +475,7 @@ p {
   scroll-snap-align: start;
   display: grid;
   height: 100vh;
+  text-shadow: 2px 2px 30px #191919;
 }
 
 #landing-page {
@@ -343,23 +486,29 @@ p {
   scroll-snap-align: start;
   background-color: #191919;
   height: 100vh;
-  padding: 5% 10%;
+  padding: 10%;
 }
+
+#payment-page {
+  color: black;
+  padding: 10%;
+}
+
 #pricing-section {
   background-color: #191919;
-  padding: 5% 10%;
+  padding: 15% 10%;
 }
 
 #perks-section {
   background-color: #D34849;
-  padding: 5% 10%;
+  padding: 10%;
 }
 
 #reviews {
   scroll-snap-align: start;
   background-color: #1FE1E9;
   height: 100vh;
-  padding: 5% 10% 10% 3%;
+  padding: 10% 10% 10% 0%;
 }
 
 #superior-sound {

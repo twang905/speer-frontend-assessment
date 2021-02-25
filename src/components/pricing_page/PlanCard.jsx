@@ -1,18 +1,40 @@
 import React from "react";
 
 function PlanCard(props) {
+
+    const titleStyle = { color: props.color, };
+
+    const lineStyle = { backgroundColor: props.color, }
+
     return(
         <div className="plan-card col-lg-4">
-            <h3 className="plan-name">{props.name}</h3>
-            <hr></hr>
-            <h3 className="plan-term">{props.term}</h3>
-            <h1 className="plan-price">${props.price}</h1>
+            <h3 
+                className="plan-name"
+                style={titleStyle}>
+                {props.name}
+            </h3>
+            <div className="line" style={lineStyle}/>
+            <h3 
+                className="plan-term" 
+                style={titleStyle}>
+                {props.term}
+            </h3>
+            <h1 
+                className="plan-price"
+                style={titleStyle}>
+                ${props.price}
+            </h1>
             <div className="plan-details">
                 {props.details.map((detail) => 
                     <li>{detail}</li>
                 )}
             </div>
-            <button type="button" className="btn">Select</button>
+            <button 
+                style={lineStyle} 
+                type="button" 
+                className="btn plan-button">
+                Select
+            </button>
         </div>
     );
 }

@@ -2,7 +2,7 @@ import React from "react";
 
 function ReviewCard(props) {
     return(
-        <div className="col-lg-4">
+        <div className="col-4">
             <i class="star-icon fas fa-star"></i>
             <i class="star-icon fas fa-star"></i>
             <i class="star-icon fas fa-star"></i>

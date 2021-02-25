@@ -9,7 +9,7 @@ function Download() {
                     <h2 className="download-subtitle">Purchase and download the app.</h2>
                 </div>
                 <div className="col-lg-3">
-                    <button className="grad-btn">TRY IT NOW</button>
+                    <button className="grad-btn try-it-button">TRY IT NOW</button>
                 </div>
             </section>
         </div>

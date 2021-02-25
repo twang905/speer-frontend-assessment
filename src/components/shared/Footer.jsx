@@ -4,6 +4,8 @@ function Footer() {
     return(
         <div id="footer">
             {/* TODO current year */}
+            <i class="email-icon fas fa-envelope"></i>
+            <p className="email">support@experienceconcerts.co</p>
             <h3 className="logo">EXP|CON</h3>
             <p className="copyright">2019 All Rights Reserved | Speer Technologies Incorporated</p>
         </div>

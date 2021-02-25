@@ -5,16 +5,23 @@ import HeroSection from "./landing_page/HeroSection";
 import LandingPerks from "./landing_page/LandingPerks";
 import Reviews from "./landing_page/Reviews";
 import SuperiorSound from "./landing_page/SuperiorSound";
+import Navbar from "./shared/Navbar";
 
 function LandingPage() {
     return(
-        <div id="landing-page">
-            <HeroSection />
-            <SuperiorSound/>
-            <FrontRowSeats/>
-            <LandingPerks/>
-            <Reviews/>
-            <Download/>
+        <div>
+            <header id="header">
+                <Navbar color="white"/>
+            </header>
+            <div id="landing-page">
+                <HeroSection />
+                
+                <SuperiorSound/>
+                <FrontRowSeats/>
+                <LandingPerks/>
+                <Reviews/>
+                <Download/>
+            </div>
         </div>
     );
 }

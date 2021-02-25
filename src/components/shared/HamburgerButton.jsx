@@ -1,11 +1,13 @@
 import React from "react";
 
-function HamburgerButton() {
+function HamburgerButton(props) {
+
+    const style = { backgroundColor: props.color }
     return(
         <div className="hamburger-menu">
-            <div className="hamburger-line"></div>
-            <div className="hamburger-line"></div>
-            <div className="hamburger-line"></div>
+            <div style={style} className="hamburger-line"></div>
+            <div style={style} className="hamburger-line"></div>
+            <div style={style} className="hamburger-line"></div>
         </div>
     );
 }
