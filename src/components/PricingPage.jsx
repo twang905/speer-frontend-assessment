@@ -1,6 +1,6 @@
 import React from "react";
-import PricingSection from "./pricing page/PricingSection";
-import PerksSection from "./pricing page/PerksSection";
+import PricingSection from "./pricing_page/PricingSection";
+import PerksSection from "./pricing_page/PerksSection";
 
 function PricingPage() {
     return(

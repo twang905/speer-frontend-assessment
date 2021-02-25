@@ -1,10 +1,11 @@
 import React from "react";
-import PerkCard from "../pricing page/PerkCard";
-import perks from "../../perks";
+import PerkCard from "./PerkCard";
+import perks from "../../perks"
 
-function LandingPerks() {
+
+function PerksSection() {
     return(
-        <section id="landing-perks">
+        <div id="perks-section">
             <h1 className="section-title">perks</h1>
             <div className="row">{
                 perks.map((perk) =>
@@ -14,8 +15,8 @@ function LandingPerks() {
                 />
             )}
             </div>
-        </section>
+        </div>
     );
 }
 
-export default LandingPerks;
+export default PerksSection;
