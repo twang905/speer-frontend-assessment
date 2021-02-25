@@ -153,6 +153,8 @@ form {
   width: 15vw;
   height: 4.1vw;
   font-size: 1.1vw;
+  position: relative;
+  left: 42.5vw;
 }
 
 .hero-contents {
@@ -204,7 +206,7 @@ form {
 
 .navigation-bar {
   background-color: transparent;
-  height: 200px;
+  height: 100px;
   z-index: 1;
 }
 
@@ -222,6 +224,14 @@ form {
 
 .navbar-toggler {
   color: white;
+}
+
+.parent {
+  scroll-snap-type: y mandatory;
+  flex-basis: 50%;
+  max-height: 100vh;
+  scroll-snap-stop: always;
+  overflow-y: scroll;
 }
 
 .payment-page-button {
@@ -414,33 +424,10 @@ form {
   width: 18vw;
   font-size: 1.5vw;
   letter-spacing: .15vw;
+  position: relative;
+  left: 50vw;
 }
 
-.parent {
-  margin-top: 90px;
-  scroll-snap-type: y mandatory;
-  flex-basis: 50%;
-  max-height: 50vh;
-  scroll-snap-stop: always;
-  overflow-y: scroll;
-}
-
-li{
-border-bottom: 1px solid white;
-padding: 3rem;
-font-size: 1.4rem;
-color: rgba(white, .5);
-background: lightgray;
-text-align: center;
-scroll-snap-align: start;
-display: flex;
-flex-flow: column;
-justify-content: center;
-}
-
-.stop {
-scroll-snap-stop: always;
-}
 #contact-section {
   background-color: #5E33D1;
   padding: 5% 10%;

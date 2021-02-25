@@ -15,7 +15,6 @@ function App() {
           <Route path="/pricing" component={PricingPage} />
           <Route path="/payment" component={PaymentPage} />
         </Switch>
-        <Footer />
       </Router>
     </div>
   );
