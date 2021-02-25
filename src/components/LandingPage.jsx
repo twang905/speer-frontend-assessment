@@ -9,7 +9,7 @@ import SuperiorSound from "./landing_page/SuperiorSound";
 function LandingPage() {
     return(
         <div id="landing-page">
-            <HeroSection/>
+            <HeroSection />
             <SuperiorSound/>
             <FrontRowSeats/>
             <LandingPerks/>

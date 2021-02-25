@@ -28,6 +28,16 @@ p {
   font-family: "HelveticaNeue-Bold";
 }
 
+.black-filter {
+  background-color: #191919;
+  opacity: 50%;
+  height: 100vh;
+  width: 100vw;
+  grid-column: 1;
+  grid-row: 1;
+  z-index: 0;
+}
+
 .btn {
   background-color: #D34849;
   text-transform: uppercase;
@@ -38,6 +48,16 @@ p {
   letter-spacing: 3px;
 }
 
+.carousel {
+  z-index: -1;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.carousel-img {
+  width: 100vw;
+  height: 100vh;
+}
 .center {
   margin: 0;
   position: absolute;
@@ -91,6 +111,14 @@ p {
   margin-right: 10px;
 }
 
+.front-row {
+  color: #FFB33F;
+}
+
+.front-row-content {
+  margin-top: 15%;
+}
+
 .grad-btn {
   background: transparent linear-gradient(90deg, #1FE1E9 0%, #5E33D1 44%, #D34848 74%, #FFB33F 100%) 0% 0% no-repeat padding-box;
   color: white;
@@ -114,6 +142,13 @@ p {
   padding: 20px;
 }
 
+.hero-contents {
+  grid-column: 1;
+  grid-row: 1;
+  margin-top: 30vh;
+  z-index: 1;
+}
+
 .hero-subtitle {
   font-family: "HelveticaNeue";
   text-align: center;
@@ -134,6 +169,7 @@ p {
 .landing-subtitle {
   letter-spacing: 5px;
   color: black;
+  padding: 20px 0px;
 }
 
 .logo {
@@ -146,12 +182,14 @@ p {
 .navigation-bar {
   background-color: transparent;
   padding: 1% 3%;
+  z-index: 1;
 }
 
 .navbar-brand {
   color: white;
   font-size: 36px;
   font-family: "HelveticaNeue";
+  z-index: 1;
 }
 
 .navbar-toggler {
@@ -229,12 +267,36 @@ p {
   padding: 20px 0px;
 }
 
+.speaker-superior-one {
+  width: 50%;
+  margin-bottom: 120px;
+}
+
+.speaker-superior-two {
+  width: 50%;
+  margin-top: 120px;
+}
+
+.speaker-pair {
+  width: 100%;
+}
+
 .star-icon {
   color: black;
   font-size: 30px;
   margin: 20px 5px 20px 0px;
 }
 
+.superior-sound {
+  color: #D34849;
+}
+.superior-sound-text {
+  margin-top: 20%;
+}
+
+.superior-sound-speakers {
+  margin-top: 10%;
+}
 
 
 #contact-section {
@@ -269,10 +331,8 @@ p {
 
 #hero-section {
   scroll-snap-align: start;
-  background-image: url('assets/hero-image.png');
-  background-size: 100%;
+  display: grid;
   height: 100vh;
-  padding: 5% 10%;
 }
 
 #landing-page {
@@ -299,7 +359,7 @@ p {
   scroll-snap-align: start;
   background-color: #1FE1E9;
   height: 100vh;
-  padding: 5% 10%;
+  padding: 5% 10% 10% 3%;
 }
 
 #superior-sound {
