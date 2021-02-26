@@ -11,6 +11,7 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
+          {/* routes */}
           <Route path="/" exact component={LandingPage} />
           <Route path="/pricing" component={PricingPage} />
           <Route path="/payment" component={PaymentPage} />

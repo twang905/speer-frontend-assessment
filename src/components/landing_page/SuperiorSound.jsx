@@ -3,18 +3,32 @@ import speakerOne from "../../assets/speaker1.png";
 import speakerTwo from "../../assets/speaker2.png";
 import ReactAudioPlayer from 'react-audio-player';
 import paradise from "../../assets/paradise.mp3";
+import {useHistory} from "react-router-dom";
 
+// keep track of if song is playing
 var isPlaying = false;
 const song = new Audio(paradise);
 
 function playAudio() {
+    // if song is playing, pause it, otherwise play the song
     isPlaying ? song.pause() : song.play();
+    // toggle playing status
     isPlaying = !isPlaying;
 }
 
 function SuperiorSound() {
+    const history = useHistory();
     return(
         <section id="superior-sound">
+            {/* cta */}
+            <button 
+                type="button" 
+                onClick={() => history.push('/pricing') } 
+                className="btn cta superior-sound"
+            >
+                Try it now
+            </button>
+            {/* main body */}
             <div className="row superior-sound-items">
                 <div className="col-7 superior-sound-text">
                     {/* title */}

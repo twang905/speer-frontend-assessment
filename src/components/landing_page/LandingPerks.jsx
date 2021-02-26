@@ -1,6 +1,7 @@
 import React from "react";
 import PerkCard from "../pricing_page/PerkCard";
 import perks from "../../perks";
+import { useHistory } from "react-router-dom";
 
 // returns color based on specs
 function getColor(id) {
@@ -19,9 +20,18 @@ function getColor(id) {
 }
 
 function LandingPerks() {
+    const history = useHistory();
     return(
         <section id="landing-perks">
-            <h1 className="section-title">perks</h1>
+            {/* cta */}
+            <button 
+                type="button" 
+                className="grad btn cta"
+                onClick={() => history.push('/pricing') } 
+            >
+                Try it now
+            </button>
+            <h1 className="section-title perks-section-title">perks</h1>
             {/* shows perks from perks.js*/}
             <div className="row perks-row">{
                 perks.map((perk) =>

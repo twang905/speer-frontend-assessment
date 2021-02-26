@@ -89,6 +89,15 @@ form {
   letter-spacing: .13vw;
 }
 
+.cta {
+  background-color: white;
+  position: relative;
+  left: 70vw;
+  bottom: 2vw;
+  width: 13vw;
+  height: 3.2vw;
+}
+
 .demo-button {
   background-color: white;
   border-radius: 40px;
@@ -147,6 +156,10 @@ form {
   font-size: 26px;
 }
 
+.grad {
+  background: transparent linear-gradient(90deg, #1FE1E9 0%, #5E33D1 44%, #D34848 74%, #FFB33F 100%) 0% 0% no-repeat padding-box;
+}
+
 .hamburger-line {
   width: 56px;
   height: 5px;
@@ -159,7 +172,7 @@ form {
   position: absolute;
   left: 50px;
   top: 50px;
-  z-index: 5;
+  z-index: 1;
   background-color: transparent;
   border: none;
 }
@@ -167,6 +180,7 @@ form {
 .hamburger-button {
   background-color: transparent;
   border: none;
+  z-index: 1;
 }
 
 .hero-button {
@@ -260,7 +274,7 @@ form {
   display: block;
   transition: visibility 0.5s, color .5s;
   letter-spacing: 4.7px;
-  z-index: 3;
+  z-index: 1;
 }
 
 .menu-items {
@@ -269,13 +283,13 @@ form {
   left: 50px;
   font-size: 47px;
   letter-spacing: 4.7px;
-  z-index: 3;
+  z-index: 1;
 }
 
 .navigation-bar {
   background-color: transparent;
   height: 100px;
-  z-index: 5;
+  z-index: 1;
 }
 
 .navbar-brand {
@@ -318,7 +332,7 @@ form {
 }
 
 .perk-card {
-  padding-right: 7%;
+  padding-right: 4vw;
 }
 
 .perk-description {
@@ -335,6 +349,10 @@ form {
 }
 
 .perks-row {
+  margin-top: 2vw;
+}
+
+.perks-section-title {
   margin-top: 3vw;
 }
 
@@ -405,13 +423,22 @@ form {
 }
 
 .reveal {
-  z-index: -1;
+  z-index: 1;
   width: 10vw;
   height: 10vw;
   background: url("../src/assets/reveal_image.png")  50% no-repeat fixed;
   background-size: cover;
   border-radius: 50%;
   position: relative;
+}
+
+.review-btn {
+  color: #1FE1E9;
+}
+
+.review-body {
+  margin-top: 3vw;
+  margin-left: 3vw;
 }
 
 .review-name {
@@ -462,6 +489,9 @@ form {
 
 .speaker-pair {
   width: 30vw;
+  position: relative;
+  right: 9vw;
+  top: 4vw;
 }
 
 .star-icon {
@@ -474,6 +504,7 @@ form {
 .superior-sound {
   color: #D34849;
 }
+
 .superior-sound-text {
   margin-top: 15vw;
 }
@@ -534,8 +565,6 @@ form {
   background-color: #FFB33F;
   height: 100vh;
   padding: 5% 10%;
-  z-index: -3;
-  position: relative;
 }
 
 #header {
@@ -562,10 +591,8 @@ form {
 #landing-perks {
   scroll-snap-align: start;
   background-color: #191919;
-  z-index: -1;
   height: 100vh;
-  padding: 10%;
-  position: relative;
+  padding: 5% 10%;
 }
 
 #payment-page {
@@ -608,7 +635,7 @@ form {
   scroll-snap-align: start;
   background-color: #1FE1E9;
   height: 100vh;
-  padding: 10% 10% 10% 0%;
+  padding: 5% 10%;
 }
 
 #superior-sound {
@@ -617,6 +644,7 @@ form {
   background-color: #D34849;
   padding: 5% 10%;
 }
+
 
 @font-face{
   font-family: "HelveticaNeue-Bold";
