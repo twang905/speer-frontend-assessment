@@ -1,3 +1,4 @@
+// list of perks
 const perks = [
     {
         id: 1,

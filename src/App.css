@@ -32,14 +32,11 @@ form {
   margin: 3vw 0;
 }
 
-
-
 .App {
   text-align: left;
   color: white;
   font-family: "HelveticaNeue-Bold";
 }
-
 
 .btn {
   background-color: #D34849;
@@ -54,10 +51,6 @@ form {
   grid-row: 1;
 }
 
-.carousel-img {
-  width: 100vw;
-  height: 100vh;
-}
 .center {
   margin: 0;
   position: absolute;
@@ -75,6 +68,15 @@ form {
   transform: translate(-50%, -50%);
 }
 
+.circle {
+  border-radius: 100%;
+  position: absolute;
+  top: -180px;
+  left: -100px;
+  transition: width 0.3s, height 0.3s;
+  background-color: #191919;
+}
+
 .copyright {
   font-size: 1.3vw;
   font-family: "HelveticaNeue";
@@ -86,7 +88,7 @@ form {
   border-radius: 40px;
   font-size: 1.2vw;
   letter-spacing: .12vw;
-  width: 17vw;
+  width: 17.6vw;
   height: 4.2vw;
   border: none;
 }
@@ -121,7 +123,7 @@ form {
 }
 
 .front-row-content {
-  margin-top: 15%;
+  margin-top: 10vw;
 }
 
 .grad-btn {
@@ -136,10 +138,10 @@ form {
 }
 
 .hamburger-line {
-  width: 35px;
-  height: 3px;
+  width: 56px;
+  height: 5px;
   background-color: white;
-  margin: 7px 0;
+  margin: 10px 0;
 }
 
 .hamburger-menu {
@@ -147,6 +149,14 @@ form {
   position: absolute;
   left: 50px;
   top: 50px;
+  z-index: 5;
+  background-color: transparent;
+  border: none;
+}
+
+.hamburger-button {
+  background-color: transparent;
+  border: none;
 }
 
 .hero-button {
@@ -160,8 +170,7 @@ form {
 .hero-contents {
   grid-column: 1;
   grid-row: 1;
-  margin-top: 30vh;
-  z-index: 1;
+  margin-top: 38vh;
 }
 
 .hero-subtitle {
@@ -169,14 +178,36 @@ form {
   text-align: center;
   font-size: 1.6vw;
   letter-spacing: .16vw;
-  padding: 2% 20% 4% 20%;
+  padding: 2vw 28vw 2vw 27vw;
   font-size: 1.7vw;
 }
+
 
 .hero-title {
   text-align: center;
   font-size: 3.3vw;
   letter-spacing: 0.33vw;
+}
+
+.indicator {
+  border: 1px solid white;
+  border-radius: 50%;
+  height: 1vw;
+  width: 1vw;
+}
+
+.indicator-button {
+  background-color: transparent;
+  border: none;
+  width: 1vw;
+  padding: 0;
+  margin: .5vw;
+}
+
+.indicator-row {
+  width: 6vw;
+  margin-left: 47.5vw;
+  margin-top: 15vw;
 }
 
 .landing-title {
@@ -189,6 +220,7 @@ form {
   color: black;
   padding: 20px 0px;
   font-size: 2.7vw;
+  font-family: "HelveticaNeue";
 }
 
 .line {
@@ -204,22 +236,40 @@ form {
   margin: 5vw 0 2vw;
 }
 
+.menu-item {
+  margin: 10px 0;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  display: block;
+  transition: visibility 0.5s, color .5s;
+  letter-spacing: 4.7px;
+}
+
+.menu-items {
+  position: absolute;
+  top: 120px;
+  left: 50px;
+  font-size: 47px;
+  letter-spacing: 4.7px;
+}
+
 .navigation-bar {
   background-color: transparent;
   height: 100px;
-  z-index: 1;
+  z-index: 5;
 }
 
 .navbar-brand {
   color: white;
-  font-size: 38px;
+  font-size: 48px;
   letter-spacing: 3.6px;
   font-family: "HelveticaNeue";
   z-index: 1;
   padding: 0;
   position: absolute;
-  left: 120px;
-  top: 40px;
+  left: 150px;
+  top: 41px;
 }
 
 .navbar-toggler {
@@ -228,8 +278,8 @@ form {
 
 .parent {
   scroll-snap-type: y mandatory;
-  flex-basis: 50%;
   max-height: 100vh;
+  max-width: 100%;
   scroll-snap-stop: always;
   overflow-y: scroll;
 }
@@ -336,6 +386,16 @@ form {
   width: 1.5vw;
 }
 
+.reveal {
+  z-index: 1;
+  width: 10vw;
+  height: 10vw;
+  background: url("../src/assets/reveal_image.png")  50% no-repeat fixed;
+  background-size: cover;
+  border-radius: 50%;
+  position: relative;
+}
+
 .review-name {
   text-transform: uppercase;
   letter-spacing: .18vw;
@@ -367,6 +427,11 @@ form {
   margin: 5% 0%;
 }
 
+.speaker-button {
+  background-color: transparent;
+  border: none;
+}
+
 .speaker-superior-one {
   width: 15vw;
   margin-bottom: 120px;
@@ -392,11 +457,11 @@ form {
   color: #D34849;
 }
 .superior-sound-text {
-  margin-top: 20%;
+  margin-top: 15vw;
 }
 
 .superior-sound-speakers {
-  margin-top: 10%;
+  margin-top: 10vw;
 }
 
 .terms-of-service {
@@ -424,8 +489,7 @@ form {
   width: 18vw;
   font-size: 1.5vw;
   letter-spacing: .15vw;
-  position: relative;
-  left: 50vw;
+  margin-top: 3vw;
 }
 
 #contact-section {
@@ -437,7 +501,7 @@ form {
   scroll-snap-align: start;
   background-color: #191919;
   height: 60vh;
-  padding: 5% 10%;
+  padding: 10%;
 }
 
 #footer {
@@ -458,11 +522,16 @@ form {
   width: 100%;
 }
 
+#hero-carousel {
+  width: 100vw;
+  height: 100vh;
+}
+
 #hero-section {
   scroll-snap-align: start;
   display: grid;
   height: 100vh;
-  text-shadow: 2px 2px 30px #191919;
+  text-shadow: 0 0 30px #191919;
 }
 
 #landing-page {
@@ -472,8 +541,10 @@ form {
 #landing-perks {
   scroll-snap-align: start;
   background-color: #191919;
+  z-index: 6;
   height: 100vh;
   padding: 10%;
+  position: relative;
 }
 
 #payment-page {
@@ -489,6 +560,27 @@ form {
 #perks-section {
   background-color: #D34849;
   padding: 10%;
+}
+
+#reveal-one {
+  width: 18vw;
+  height: 18vw;
+  top: 4vw;
+  left: 9vw;
+}
+
+#reveal-two {
+  width: 30vw;
+  height: 30vw;
+  right: 7vw;
+  bottom: 3vw;
+}
+
+#reveal-three {
+  width: 35vw;
+  height: 35vw;
+  left: 30vw;
+  top: 2vw;
 }
 
 #reviews {

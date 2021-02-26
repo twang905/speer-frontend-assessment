@@ -1,31 +1,24 @@
 import React from "react";
+import Textfield from "./Textfield";
 
 function BillingInfo() {
     return(
-        <div className="billing-info">
+        <div className="col-6 billing-info">
+            {/* form title */}
             <h3 className="payment-step">2. Billing Information</h3>
             <form>
-                <label className="textfield-label">Full name
-                    <input type="text" className="textfield"/>
-                </label>
-                <label className="textfield-label">billing address
-                    <input type="text" className="textfield"/>
-                </label>
+                <Textfield label="Full name" />
+                <Textfield label="Billing address" />
+                {/* address row */}
                 <div className="row">
                     <div className="col-lg-6">
-                        <label className="textfield-label">city
-                            <input type="text" className="textfield"/>
-                        </label>
+                        <Textfield label="city" />
                     </div>
                     <div className="col-lg-6">
-                        <label className="textfield-label">postal code
-                            <input type="text" className="textfield"/>
-                        </label>
+                        <Textfield label="psotal code" />
                     </div>
                 </div>
-                <label className="textfield-label">country
-                    <input type="text" className="textfield"/>
-                </label>
+                <Textfield label="country" />
             </form>
         </div>
     );

@@ -8,11 +8,15 @@ function Reviews() {
     return(
         <section id="reviews">
             <div className="row">
+                {/* speakers */}
                 <div className="col-4">
                     <img className="speaker-pair" src={speakers}/>
                 </div>
+                {/* reviews */}
                 <div className="col-8 reviews-content">
+                    {/* title */}
                     <h1 className="section-title">reviews</h1>
+                    {/* get reviews from reviews.js */}
                     <div className="review-row row">{
                         reviews.map((review) => 
                             <ReviewCard 

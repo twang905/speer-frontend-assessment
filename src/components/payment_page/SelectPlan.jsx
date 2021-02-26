@@ -2,6 +2,7 @@ import React from "react";
 import plans from "../../plans";
 import PlanSelect from "./PlanSelection";
 
+// returns proper color based on specs
 function getColor(id) {
     const mod = id % 3;
     switch(mod) {
@@ -15,15 +16,18 @@ function getColor(id) {
             return "#1FE1E9";
             break;
     }
-  }
+}
 
+// shows options available for purchasing plan
 function SelectPlan() {
     return(
         <div className="select-plan">
             <div className="row">
+                {/* keep to left side of screen */}
                 <div className="col-lg-8">
                     <h3 className="payment-step">1. Select your plan</h3>
                         <div className="row">
+                        {/* show options from plans.js */}
                         {plans.map((plan) => 
                             <PlanSelect 
                                 name={plan.name}

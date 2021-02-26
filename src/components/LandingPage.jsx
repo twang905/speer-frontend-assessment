@@ -8,6 +8,7 @@ import SuperiorSound from "./landing_page/SuperiorSound";
 import Footer from "./shared/Footer";
 import Navbar from "./shared/Navbar";
 
+
 function LandingPage() {
     return(
         <div>
@@ -17,17 +18,17 @@ function LandingPage() {
             </header>
             {/* main body of landing page */}
             <div id="landing-page">
-                <div class="wrapper">
-                    <div class="parent">
-                        <HeroSection />
-                        <SuperiorSound/>
-                        <FrontRowSeats/>
-                        <LandingPerks/>
-                        <Reviews/>
-                        <Download/>
-                        <Footer />
-                    </div>
+                <div class="parent">
+                    <HeroSection />
+                    <SuperiorSound/>
+                    <FrontRowSeats/>
+                    <LandingPerks/>
+                    <Reviews/>
+                    <Download/>
+                    
+                    <Footer />
                 </div>
+                
             </div>
         </div>
     );

@@ -2,6 +2,7 @@ import React from "react";
 import PerkCard from "../pricing_page/PerkCard";
 import perks from "../../perks";
 
+// returns color based on specs
 function getColor(id) {
     const mod = id % 3;
     switch(mod) {
@@ -21,6 +22,7 @@ function LandingPerks() {
     return(
         <section id="landing-perks">
             <h1 className="section-title">perks</h1>
+            {/* shows perks from perks.js*/}
             <div className="row perks-row">{
                 perks.map((perk) =>
                 <PerkCard 
