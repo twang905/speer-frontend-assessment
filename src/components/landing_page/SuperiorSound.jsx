@@ -1,7 +1,16 @@
 import React from "react";
 import speakerOne from "../../assets/speaker1.png";
 import speakerTwo from "../../assets/speaker2.png";
+import ReactAudioPlayer from 'react-audio-player';
+import paradise from "../../assets/paradise.mp3";
 
+var isPlaying = false;
+const song = new Audio(paradise);
+
+function playAudio() {
+    isPlaying ? song.pause() : song.play();
+    isPlaying = !isPlaying;
+}
 
 function SuperiorSound() {
     return(
@@ -16,7 +25,8 @@ function SuperiorSound() {
                 </div>
                 {/* speaker images */}
                 <div className="col-5 superior-sound-speakers">
-                    <button type="button" className="speaker-button">
+                    <ReactAudioPlayer src="../../assets/paradise.mp3"/>
+                    <button type="button" onClick={ playAudio } className="speaker-button">
                         <img className="speaker-superior-one" src={speakerOne}/>
                         <img className="speaker-superior-two" src={speakerTwo}/>
                     </button>
