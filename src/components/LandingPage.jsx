@@ -25,10 +25,8 @@ function LandingPage() {
                     <LandingPerks/>
                     <Reviews/>
                     <Download/>
-                    
                     <Footer />
                 </div>
-                
             </div>
         </div>
     );
