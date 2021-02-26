@@ -6,8 +6,10 @@ function Footer() {
     return(
         <div id="footer">
             {/* email row */}
-            <i class="email-icon fas fa-envelope"></i>
-            <p className="email">support@experienceconcerts.co</p>
+            <div className="email">
+                <i class="email-icon fas fa-envelope"></i>
+                <p className="email-address">support@experienceconcerts.co</p>
+            </div>
             {/* logo */}
             <h3 className="logo">EXP|CON</h3>
             {/* copyright */}
