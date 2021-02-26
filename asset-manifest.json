@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/twang905/speer-frontend-assessment/tree/master/static/css/main.1f048062.chunk.css",
+    "main.js": "/twang905/speer-frontend-assessment/tree/master/static/js/main.38b07d5a.chunk.js",
+    "main.js.map": "/twang905/speer-frontend-assessment/tree/master/static/js/main.38b07d5a.chunk.js.map",
+    "runtime-main.js": "/twang905/speer-frontend-assessment/tree/master/static/js/runtime-main.861a94d3.js",
+    "runtime-main.js.map": "/twang905/speer-frontend-assessment/tree/master/static/js/runtime-main.861a94d3.js.map",
+    "static/js/2.b844b334.chunk.js": "/twang905/speer-frontend-assessment/tree/master/static/js/2.b844b334.chunk.js",
+    "static/js/2.b844b334.chunk.js.map": "/twang905/speer-frontend-assessment/tree/master/static/js/2.b844b334.chunk.js.map",
+    "static/js/3.01ce3d88.chunk.js": "/twang905/speer-frontend-assessment/tree/master/static/js/3.01ce3d88.chunk.js",
+    "static/js/3.01ce3d88.chunk.js.map": "/twang905/speer-frontend-assessment/tree/master/static/js/3.01ce3d88.chunk.js.map",
+    "index.html": "/twang905/speer-frontend-assessment/tree/master/index.html",
+    "static/css/main.1f048062.chunk.css.map": "/twang905/speer-frontend-assessment/tree/master/static/css/main.1f048062.chunk.css.map",
+    "static/js/2.b844b334.chunk.js.LICENSE.txt": "/twang905/speer-frontend-assessment/tree/master/static/js/2.b844b334.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/twang905/speer-frontend-assessment/tree/master/static/media/reveal_image.e3a535c2.png",
+    "static/media/hero_image1.c7800894.png": "/twang905/speer-frontend-assessment/tree/master/static/media/hero_image1.c7800894.png",
+    "static/media/hero_image2.61ab2f67.png": "/twang905/speer-frontend-assessment/tree/master/static/media/hero_image2.61ab2f67.png",
+    "static/media/hero_image3.ed644d58.png": "/twang905/speer-frontend-assessment/tree/master/static/media/hero_image3.ed644d58.png",
+    "static/media/paradise.c3dcd5f6.mp3": "/twang905/speer-frontend-assessment/tree/master/static/media/paradise.c3dcd5f6.mp3",
+    "static/media/review_speakers.83754cd4.png": "/twang905/speer-frontend-assessment/tree/master/static/media/review_speakers.83754cd4.png",
+    "static/media/speaker1.771514b8.png": "/twang905/speer-frontend-assessment/tree/master/static/media/speaker1.771514b8.png",
+    "static/media/speaker2.f22c4155.png": "/twang905/speer-frontend-assessment/tree/master/static/media/speaker2.f22c4155.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.861a94d3.js",
+    "static/js/2.b844b334.chunk.js",
+    "static/css/main.1f048062.chunk.css",
+    "static/js/main.38b07d5a.chunk.js"
+  ]
+}
